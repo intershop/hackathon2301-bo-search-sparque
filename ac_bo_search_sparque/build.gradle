@@ -1,0 +1,30 @@
+apply plugin: 'java-cartridge'
+apply plugin: 'static-cartridge'
+
+intershop 
+{
+    displayName = 'Adapter - Backoffice Search Sparque'
+}
+
+
+dependencies 
+{
+   compile group: 'com.intershop.platform', name: 'core'
+   compile group: 'com.intershop.platform', name: 'jmx'
+   compile group: 'com.intershop.platform', name: 'bc_application'
+   compile group: 'com.intershop.platform', name: 'businessobject'
+   compile group: 'com.intershop.platform', name: 'bc_repository'
+   compile group: 'com.intershop.platform', name: 'bc_foundation'
+   compile group: 'com.intershop.platform', name: 'pf_property'
+   compile group: 'com.intershop.business', name: 'bc_product'
+   compile group: 'com.intershop.business', name: 'bc_search'
+   compile group: 'com.intershop.business', name: 'xcs'
+   compile group: 'com.intershop.business', name: 'bc_catalog'
+   compile group: 'com.intershop.business', name: 'bc_mvc'
+   compile group: 'com.intershop.business', name: 'bc_product'
+   
+   compile 'com.intershop:common-webinterface'
+   compile 'jakarta.ws.rs:jakarta.ws.rs-api'
+   compile 'com.fasterxml.jackson.core:jackson-annotations'
+   
+}
