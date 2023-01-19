@@ -96,6 +96,7 @@ Response
 ```        
 The Sparque Strategy
 ![image](./SuperSimpleSearchStrategy.jpg)
+
 really basic - searches in the name and find a single sku equal to input
 
 
